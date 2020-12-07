@@ -19,4 +19,8 @@ export class User {
       lng: parseFloat(Faker.address.longitude())
     }
   }
+
+  makerContent(): string {
+    return `User name: ${this.name}`
+  }
 }
